@@ -5,7 +5,6 @@
 - It really helps if you include \<feature-name> in the commit messgae too as a practice. 
 - Adding <feature-name> manually requires a lot of efforts. This post will help you add that with a simple commit hook.
 
-
 ### Steps
 
 1. Firstly, set up a git template directory using the git config command. In this example we’re using the .git-templates folder we’ve created in our home directory:
@@ -16,7 +15,7 @@
 
     ```mkdir -p ~/.git-templates/hooks```
 
-3. Afterwards, copy your hooks into this newly created directory and ensure permissions are correctly set on the file
+3. Afterwards, copy your hooks into this newly created directory and ensure permissions are correctly set on the file. Use ```commit-msg``` file as a hook.
 
     ```chmod a+x ~/.git-templates/hooks/commit-msg```
 
