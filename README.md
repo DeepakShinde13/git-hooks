@@ -1,4 +1,4 @@
-# commit hoook usage guidelines
+# commit hook usage guidelines
  
 #### what is it?
 - Generally we follow 'feature/\<feature-name>' branching style to name our branches.
