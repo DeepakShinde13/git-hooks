@@ -1,8 +1,8 @@
 # pre-commit hoook usage guidelines
  
 #### what is it?
-- Generally we follow 'feature/<feature-name>' branching style to name our branches.
-- It really helps if you include <feature-name> in the commit messgae too as a practice. 
+- Generally we follow 'feature/\<feature-name>' branching style to name our branches.
+- It really helps if you include \<feature-name> in the commit messgae too as a practice. 
 - Adding <feature-name> manually requires a lot of efforts. This post will help you add that with a simple pre-commit hook.
 
 
@@ -24,4 +24,4 @@
 
     ```git init```
 
-5. Example : branch name 'feature/ABC-123'.  After you add a commit, generated message will have a structure [ABC-123] <commit-message> 
+5. Example : branch name 'feature/ABC-123'.  After you add a commit, generated message will have a structure [ABC-123] \<commit-message> 
