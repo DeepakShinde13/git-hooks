@@ -25,3 +25,5 @@
     ```git init```
 
 5. Example : branch name 'feature/ABC-123'.  After you add a commit, generated message will have a structure [ABC-123] \<commit-message> 
+
+6. If you ever want to stop using this hook just go to .git/hooks and remove commit-msg file.
